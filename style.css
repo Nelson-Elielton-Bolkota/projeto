@@ -24,7 +24,13 @@
     color: #00ff88;
 }
 
-
+.header{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    background-color: #111;
+}
 
 
 
