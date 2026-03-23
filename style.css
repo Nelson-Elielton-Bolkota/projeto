@@ -2,6 +2,7 @@
     display: flex;
     box-sizing: border-box;
     margin: 0;
+    background-color: yellow;
 }
 .menu {
     display: flex;
