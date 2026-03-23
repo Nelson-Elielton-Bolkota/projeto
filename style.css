@@ -6,10 +6,13 @@
 .menu {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
     background-color: #111;
-    padding: 15px;
+    padding: 10px;
 }
+
 
 .menu a {
     color: white;
@@ -19,4 +22,10 @@
 
 .menu a:hover {
     color: #00ff88;
+}
+@media (min-width: 768px) {
+    .menu {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
