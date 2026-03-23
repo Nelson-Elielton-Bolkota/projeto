@@ -1,3 +1,8 @@
+*{
+    display: flex;
+    box-sizing: border-box;
+}
+
 .menu {
     display: flex;
     justify-content: center;
