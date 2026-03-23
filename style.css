@@ -24,3 +24,23 @@
     color: #00ff88;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .menu {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
