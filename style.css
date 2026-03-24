@@ -37,9 +37,9 @@ body {
 
 .button{
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 1rem;
-    background-color: whitesmoke;
+    background-color: #111;
     border-radius: 10px;
     font-weight: bold;
 }
@@ -47,10 +47,18 @@ body {
 .button:hover{
     transform: scale(1.05);
     transition: 0.5s;
+    color: black;
     background-color: rgb(185, 185, 185);
 }
 
 .hero {
+
+    height: 100vh;
+    background-image: url("imagens/lula.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     background-color: #1a1a1a;
     color: white;
     padding: 6rem 10rem;
