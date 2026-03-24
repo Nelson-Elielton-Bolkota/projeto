@@ -61,6 +61,12 @@ body {
     box-shadow: 0 0 1rem rgba(0,0,0,0.5);
 }
 
+.hero p{
+    font-weight: bold;
+    font-size: medium;
+    font-family: "Montserrat", sans-serif;
+}
+
 @media (min-width: 768px) {
     .menu {
         flex-direction: row; 
