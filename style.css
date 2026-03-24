@@ -67,6 +67,12 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+.hero h2{
+    font-weight: bold;
+    font-size: 200px;
+    font-family: "Montserrat", sans-serif;
+}
+
 @media (min-width: 768px) {
     .menu {
         flex-direction: row; 
