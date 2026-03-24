@@ -73,6 +73,12 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+.section{
+    padding: 15px 20px;
+    text-align: center;
+    color: white;
+}
+
 @media (min-width: 768px) {
     .menu {
         flex-direction: row; 
