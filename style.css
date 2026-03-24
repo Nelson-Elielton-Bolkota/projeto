@@ -86,6 +86,15 @@ body {
     gap: 20px;
 }
 
+.card{
+    background: #0d0d0d;
+    border: 2px solid #39ff14;
+    border-radius: 12px;
+    padding: 25px;
+    width: 280px;
+    transition: 0.3s;
+}
+
 @media (min-width: 768px) {
     .menu {
         flex-direction: row; 
