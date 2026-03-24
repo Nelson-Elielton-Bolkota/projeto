@@ -53,12 +53,6 @@ body {
 
 .hero {
 
-    height: 100vh;
-    background-image: url("imagens/lula.gif");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
     background-color: #1a1a1a;
     color: white;
     padding: 6rem 10rem;
