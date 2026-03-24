@@ -25,14 +25,13 @@ body {
     flex-direction: column; 
 }
 
-.menu a {
-    color: white;
+.button{
     text-decoration: none;
+    color: black;
+    padding: 1rem;
+    background-color: whitesmoke;
+    border-radius: 10px;
     font-weight: bold;
-}
-
-.menu a:hover {
-    color: #00ff88;
 }
 
 @media (min-width: 768px) {
