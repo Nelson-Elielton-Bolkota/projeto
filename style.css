@@ -79,6 +79,13 @@ body {
     color: white;
 }
 
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 @media (min-width: 768px) {
     .menu {
         flex-direction: row; 
