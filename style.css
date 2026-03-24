@@ -45,10 +45,10 @@ body {
 }
 
 .button:hover{
-    transform: scale(1.05);
     transition: 0.5s;
-    color: black;
-    background-color: rgb(185, 185, 185);
+    border: solid 2px #39ff14;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #39ff14;
 }
 
 .hero {
