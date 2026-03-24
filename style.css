@@ -101,6 +101,17 @@ body {
     box-shadow: 0 0 20px #39ff14;
 }
 
+.card h3{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #39ff14;
+}
+
+.card p{
+    font-size: 1rem;
+    color: #ccc;
+}
+
 @media (min-width: 768px) {
     .menu {
         flex-direction: row; 
