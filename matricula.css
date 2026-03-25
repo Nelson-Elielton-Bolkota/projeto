@@ -74,9 +74,9 @@ body{
     animation: neonPulse 2.5s infinite;
 }
 
-formulario h2{
+.formulario h2{
     margin-bottom: 1rem;
-    text-shadow: 0 0 10px #39ff14;
+    color: whitesmoke;
 }
 form button{
     padding: 0.8rem;
@@ -120,9 +120,16 @@ input:focus, select:focus{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    color: whitesmoke;
+    color:whitesmoke;
     padding: 2rem;
-    text-shadow: 0 0 10px #39ff14;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+}
+.bomba{
+    display: flex;
+    height: auto;
+    max-width: 100%;
+    border-radius: 1rem;
 }
 .topo{
     text-align: center;
@@ -195,6 +202,13 @@ input:focus, select:focus{
     }
 }
 
+/*Animação*/
+
+@keyframes neonPulse{
+    0% {box-shadow: 0 0 10px #39ff14;}
+     50% {box-shadow: 0 0 30px #39ff14;}
+      100% {box-shadow: 0 0 10px #39ff14;}
+}
 
 
 
