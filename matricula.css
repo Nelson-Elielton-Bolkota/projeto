@@ -49,11 +49,10 @@ body{
 .button{
     text-decoration: none;
     color: white;
-    padding: 0.8 rem, 1rem;
+    padding: 1rem;
     background-color: #111;
-    border-radius: 0.5rem;
+    border-radius: 10px;
     font-weight: bold;
-    transition: 0.3s;
 }
 
 .button:hover{
