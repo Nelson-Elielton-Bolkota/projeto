@@ -123,6 +123,11 @@ input:focus, select:focus{
     color: whitesmoke;
     padding: 2rem;
 }
+.bomba{
+    display: flex;
+    height: auto;
+    max-width: 100%;
+}
 .topo{
     text-align: center;
     display: flex;
