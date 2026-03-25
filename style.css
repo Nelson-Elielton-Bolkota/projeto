@@ -97,6 +97,19 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+.titulo{
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+.titulo h2{
+    border: solid 2px #39ff14;
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+
 .cards{
     display: flex;
     justify-content: center;
