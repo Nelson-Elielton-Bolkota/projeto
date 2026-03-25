@@ -113,6 +113,17 @@ input, select{
 input:focus, select:focus{
     box-shadow: 0 0 10px #39ff14;
 }
+
+.infos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: whitesmoke;
+    padding: 2rem;
+    text-shadow: 0 0 10px #39ff14;
+}
 .topo{
     text-align: center;
     display: flex;
