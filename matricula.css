@@ -4,6 +4,7 @@ body{
     flex-direction: column;
     margin: 0;
     background-color: #000;
+    min-height: 100vh;
 }
 
 .imagem{
