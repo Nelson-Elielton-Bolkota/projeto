@@ -159,6 +159,9 @@ input:focus, select:focus{
 
 /* CELULAR */
 @media (max-width: 768px) {
+    .topo{
+        justify-content: space-between;
+    }
     .topo h1 {
         position: static;
         transform: none;
@@ -166,7 +169,7 @@ input:focus, select:focus{
     }
 
     .imagem {
-        max-width: 2.5rem;
+        max-width: 30%;
     }
 
     .menu {
@@ -183,7 +186,7 @@ input:focus, select:focus{
         width: 90%;
         padding: 1.5rem;
     }
-    
+
     .infos h2 {
         font-size: 1.2rem;
     }
