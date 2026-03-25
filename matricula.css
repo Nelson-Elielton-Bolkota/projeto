@@ -5,7 +5,11 @@ body{
     margin: 0;
     background-color: #000;
 }
-
+.imagem{
+    display: flex;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
 .topo{
     text-align: center;
     display: flex;
