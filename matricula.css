@@ -5,7 +5,20 @@ body{
     margin: 0;
     background-color: #000;
 }
-
+.imagem{
+    display: flex;
+    max-width: 15%;
+    height: auto;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #111;
+    padding: 20px;
+    flex-direction: column; 
+}
 .topo{
     text-align: center;
     display: flex;
