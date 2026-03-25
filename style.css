@@ -6,6 +6,11 @@ body {
     background-color: #000;
 }
 
+.imagem{
+    display: flex;
+    height: auto;
+    max-width: 15%;
+}
 .header {
     text-align: center;
     font-weight: bold;
@@ -13,6 +18,16 @@ body {
     color: whitesmoke;
     background-color: #111;
     padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+.header h1 {
+    position: absolute;
+    font-size: clamp(1.5rem, 5vw, 3rem);
+    left: 50%;
+    transform: translateX(-50%);
 }
 .footer {
     background-color: #111;
