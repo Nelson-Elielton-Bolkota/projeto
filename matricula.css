@@ -7,8 +7,8 @@ body{
 }
 .imagem{
     display: flex;
-    max-width: 500px;
-    margin-bottom: 20px;
+    max-width: 15%;
+    height: auto;
 }
 .topo{
     text-align: center;
