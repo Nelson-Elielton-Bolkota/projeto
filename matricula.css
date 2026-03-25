@@ -195,6 +195,13 @@ input:focus, select:focus{
     }
 }
 
+/*Animação*/
+
+@keyframes neonPulse{
+    0% {box-shadow: 0 0 10px #39ff14;}
+     50% {box-shadow: 0 0 30px #39ff14;}
+      100% {box-shadow: 0 0 10px #39ff14;}
+}
 
 
 
