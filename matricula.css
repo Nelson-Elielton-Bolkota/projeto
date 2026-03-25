@@ -154,7 +154,7 @@ input:focus, select:focus{
     font-family:  "Inter", sans-serif;
 }
 /* TABLET */
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .container {
         grid-template-columns: 1fr;
     }
@@ -166,10 +166,6 @@ input:focus, select:focus{
     .infos {
         padding: 1.5rem;
     }
-}
-
-/* CELULAR */
-@media (max-width: 768px) {
     .topo{
         justify-content: space-between;
     }
