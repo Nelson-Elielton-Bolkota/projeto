@@ -85,6 +85,14 @@ form button{
     border-radius: 0.5rem;
     font-weight: bold;
     transition: 0.5s;
+    font-family: "Montserrat", sans-serif;
+}
+
+form button:hover{
+    background: #39ff14; 
+    color: black; 
+    box-shadow: 0 0 20px #39ff14; 
+    transform: scale(1.05);
 }
 form{
     display: flex;
