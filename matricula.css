@@ -100,6 +100,9 @@ form{
     gap: 1rem;
     width: 100%;
 }
+form, .container{
+    margin-top: 2.5rem;
+}
 
 input, select{
     padding: 0.7rem;
@@ -148,6 +151,7 @@ input:focus, select:focus{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    font-family:  "Inter", sans-serif;
 }
 /* TABLET */
 @media (max-width: 1024px) {
@@ -193,12 +197,16 @@ input:focus, select:focus{
         width: 90%;
         padding: 1.5rem;
     }
-
+    .bomba{
+        width: 50%;
+    }
     .infos h2 {
         font-size: 1.2rem;
+        margin-top: 2rem;
     }
     .infos p {
         font-size: 0.9rem;
+        margin-top: 0.5rem;
     }
 }
 
