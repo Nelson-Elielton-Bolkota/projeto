@@ -120,13 +120,16 @@ input:focus, select:focus{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    color: whitesmoke;
+    color: #39ff14;
     padding: 2rem;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
 }
 .bomba{
     display: flex;
     height: auto;
     max-width: 100%;
+    border-radius: 1rem;
 }
 .topo{
     text-align: center;
