@@ -142,3 +142,56 @@ input:focus, select:focus{
     left: 50%;
     transform: translateX(-50%);
 }
+/* TABLET */
+@media (max-width: 1024px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .formulario {
+        max-width: 24rem;
+    }
+
+    .infos {
+        padding: 1.5rem;
+    }
+}
+
+/* CELULAR */
+@media (max-width: 768px) {
+    .topo h1 {
+        position: static;
+        transform: none;
+        text-align: center;
+    }
+
+    .imagem {
+        max-width: 2.5rem;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .formulario {
+        width: 90%;
+        padding: 1.5rem;
+    }
+    
+    .infos h2 {
+        font-size: 1.2rem;
+    }
+    .infos p {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+
