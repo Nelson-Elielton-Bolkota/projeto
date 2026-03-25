@@ -57,11 +57,16 @@ body{
     box-shadow: 0 0 20px #39ff14;
 }
 .formulario{
+    background-color: #1a1a1a;
     display: flex;
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 22rem;
+    margin: auto;
     flex-direction: column;
     justify-content: center;
-    padding: 40px;
-    color: whitesmoke;
+    padding: 2.5rem;
+    color: #39ff14;
 }
 form{
     display: flex;
