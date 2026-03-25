@@ -76,7 +76,7 @@ body{
 
 formulario h2{
     margin-bottom: 1rem;
-    text-shadow: 0 0 10px #39ff14;
+    text-shadow: 0 0 10px whitesmoke;
 }
 form button{
     padding: 0.8rem;
