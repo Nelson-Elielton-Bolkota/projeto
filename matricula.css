@@ -109,6 +109,10 @@ input, select{
     outline: none;
     color: whitesmoke;
 }
+
+input:focus, select:focus{
+    box-shadow: 0 0 10px #39ff14;
+}
 .topo{
     text-align: center;
     display: flex;
