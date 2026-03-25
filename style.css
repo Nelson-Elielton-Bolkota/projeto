@@ -5,6 +5,11 @@ body {
     margin: 0;
     background-color: #000;
 }
+.gif {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
 
 .imagem{
     display: flex;
