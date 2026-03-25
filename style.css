@@ -132,7 +132,6 @@ body {
 @media (min-width: 768px) {
     .menu {
         flex-direction: row; 
-        margin-top: 1rem;
     }
 }
 /* Tablet */
@@ -140,6 +139,19 @@ body {
     .hero {
         padding: 30px 15px;
         margin: 20px 10px;
+    }
+    .header{
+        justify-content: space-between;
+    }
+    .imagem{
+        max-width: 30%;
+    }
+    .header h1 {
+        
+        position: static; 
+        transform: none;
+        text-align: center;
+        margin-top: 10px; 
     }
 
     .hero h2 {
@@ -149,27 +161,9 @@ body {
     .hero p {
         font-size: 16px;
     }
-    .imagem {
-        display: none;
-    }
+    
 }
 
-/* Celular */
-@media (max-width: 480px) {
-    .hero {
-        padding: 25px 10px;
-        margin: 15px 8px;
-        border-radius: 10px;
-    }
-
-    .hero h2 {
-        font-size: 20px;
-    }
-
-    .hero p {
-        font-size: 14px;
-    }
-}
 
 .button_conheca {
     display: inline-block;
