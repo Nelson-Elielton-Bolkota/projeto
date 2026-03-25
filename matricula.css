@@ -73,6 +73,11 @@ body{
     color: #39ff14;
     animation: neonPulse 2.5s infinite;
 }
+
+formulario h2{
+    margin-bottom: 1rem;
+    text-shadow: 0 0 10px #39ff14;
+}
 form{
     display: flex;
     flex-direction: column;
