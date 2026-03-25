@@ -23,6 +23,7 @@ body{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
 }
+
 .menu{
     display: flex;
     justify-content: center;
@@ -32,12 +33,14 @@ body{
     padding: 20px;
     flex-direction: column; 
 }
+
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     min-height: 100vh;
     background-color: #1a1a1a;
 }
+
 .button{
     text-decoration: none;
     color: white;
@@ -46,12 +49,14 @@ body{
     border-radius: 10px;
     font-weight: bold;
 }
+
 .button:hover{
     transition: 0.5s;
     border: solid 2px #39ff14;
     transform: scale(1.15);
     box-shadow: 0 0 20px #39ff14;
 }
+
 .topo{
     text-align: center;
     display: flex;
