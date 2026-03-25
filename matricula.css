@@ -32,6 +32,11 @@ body{
     padding: 20px;
     flex-direction: column; 
 }
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+}
 .button{
     text-decoration: none;
     color: white;
