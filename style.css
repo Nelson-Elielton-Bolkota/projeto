@@ -140,6 +140,9 @@ body {
         padding: 30px 15px;
         margin: 20px 10px;
     }
+    .menu{
+        gap: 0px;
+    }
     .header{
         justify-content: space-between;
     }
