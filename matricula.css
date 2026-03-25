@@ -43,7 +43,6 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     flex: 1;
-    background-color: #1a1a1a;
 }
 
 .button{
@@ -58,7 +57,7 @@ body{
 .button:hover{
     transition: 0.5s;
     border: solid 2px #39ff14;
-    transform: scale(1.15);
+    transform: scale(1.1);
     box-shadow: 0 0 20px #39ff14;
 }
 .formulario{
