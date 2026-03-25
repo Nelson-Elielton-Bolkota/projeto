@@ -19,7 +19,7 @@ body{
     padding: 15px;
 }
 
-topo h1{
+.topo h1{
     position: absolute;
     font-size: clamp(1.5rem, 5vw, 3rem);
     left: 50%;
