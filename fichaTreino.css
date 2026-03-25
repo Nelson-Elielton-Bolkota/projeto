@@ -44,6 +44,12 @@ body{
     border-radius: 20px;
     padding: 0.5rem;
 }
+.h2{
+    font-size: clamp(1.5rem, 5vw, 3rem);
+}
+.h3{
+    font-size: clamp(1.5rem, 5vw, 3rem);
+}
 
 .menu {
     display: flex;
@@ -122,5 +128,11 @@ body{
     .hero p {
         font-size: 16px;
     }
+    .dados h2{  
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    }
+    .dados h3 {
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+}
     
 }
