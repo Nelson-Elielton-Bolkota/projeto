@@ -1,40 +1,200 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body{
     display: flex;
-    box-sizing: border-box;
     flex-direction: column;
-    margin: 0;
+    font-family: "Inter", sans-serif;
     background-color: #000;
+    min-height: 100vh;
 }
+
 .imagem{
     display: flex;
     max-width: 15%;
     height: auto;
 }
+
+.footer{
+    background-color: #111;
+    color: #aaa;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+    border-top: 1px solid #333;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
 .menu{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 1rem;
     background-color: #111;
-    padding: 20px;
-    flex-direction: column; 
+    padding: 1rem;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex: 1;
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    background-color: #111;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.button:hover{
+    transition: 0.5s;
+    border: solid 2px #39ff14;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #39ff14;
+}
+.formulario{
+    background-color: #1a1a1a;
+    display: flex;
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 22rem;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2.5rem;
+    color: #39ff14;
+    animation: neonPulse 2.5s infinite;
+}
+
+formulario h2{
+    margin-bottom: 1rem;
+    text-shadow: 0 0 10px #39ff14;
+}
+form button{
+    padding: 0.8rem;
+    background-color: whitesmoke;
+    border: 2px solid #39ff14;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    transition: 0.5s;
+    font-family: "Montserrat", sans-serif;
+}
+
+form button:hover{
+    background: #39ff14; 
+    color: black; 
+    box-shadow: 0 0 20px #39ff14; 
+    transform: scale(1.05);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+input, select{
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    border: 1px solid #39ff14;
+    background-color: #111;
+    outline: none;
+    color: whitesmoke;
+}
+
+input:focus, select:focus{
+    box-shadow: 0 0 10px #39ff14;
+}
+
+.infos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: whitesmoke;
+    padding: 2rem;
+    text-shadow: 0 0 10px #39ff14;
 }
 .topo{
     text-align: center;
     display: flex;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Inter", sans-serif;
     color: whitesmoke;
     background-color: #111;
-    gap: 10px;
+    gap: 0.5rem;
     align-items: center;
     position: relative;
-    padding: 15px;
+    padding: 1rem;
 }
 
 .topo h1{
     position: absolute;
-    font-size: clamp(1.5rem, 5vw, 3rem);
     left: 50%;
     transform: translateX(-50%);
 }
+/* TABLET */
+@media (max-width: 1024px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .formulario {
+        max-width: 24rem;
+    }
+
+    .infos {
+        padding: 1.5rem;
+    }
+}
+
+/* CELULAR */
+@media (max-width: 768px) {
+    .topo{
+        justify-content: space-between;
+    }
+    .topo h1 {
+        position: static;
+        transform: none;
+        text-align: center;
+    }
+
+    .imagem {
+        max-width: 30%;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .formulario {
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    .infos h2 {
+        font-size: 1.2rem;
+    }
+    .infos p {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+
