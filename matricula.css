@@ -37,6 +37,7 @@ body{
     gap: 1rem;
     background-color: #111;
     padding: 1rem;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .container{
