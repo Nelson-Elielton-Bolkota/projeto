@@ -114,7 +114,18 @@ body {
 
 
 
-
+/* footer */
+.footer {
+    background-color: #111;
+    color: #aaa;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+    border-top: 1px solid #333;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
 /* resposnividade */
 @media (min-width: 768px) {
     .menu {
