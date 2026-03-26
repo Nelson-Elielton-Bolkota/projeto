@@ -131,8 +131,12 @@ body {
     margin-bottom: 1rem;
 }
 
-.caixa table{
-
+.caixa table {
+  width: 100%;
+}
+.caixa td {
+  padding: 8px;
+  border-bottom: 1px solid #444;
 }
 
 /* footer */
@@ -201,5 +205,8 @@ body {
         width: 6rem;
         height: 6rem;
     }
+    .container-tabelas {
+    grid-template-columns: 1fr; /* vira 1 coluna */
+  }
 
 }
