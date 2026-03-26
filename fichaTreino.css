@@ -110,11 +110,50 @@ body {
     text-align: center;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
 }
+.container-tabelas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  padding: 1rem;
+  max-width: 1300px;
+  margin: 0 auto;
+}
 
+.caixa {
+  background-color: #1a1a1a;
+  border: 1px solid white;
+  border-radius: 1rem;
+  padding: 2rem;
+  color: white;
+}
 
+.caixa h3{
+    color: #39ff14;
+    text-align: center;
+    margin-bottom: 1rem;
+}
 
+.caixa table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.caixa td {
+  padding: 1rem;
+  border-bottom: 1px solid #444;
+}
 
-
+/* footer */
+.footer {
+    background-color: #111;
+    color: #aaa;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+    border-top: 1px solid #333;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
 /* resposnividade */
 @media (min-width: 768px) {
     .menu {
@@ -169,5 +208,8 @@ body {
         width: 6rem;
         height: 6rem;
     }
+    .container-tabelas {
+    grid-template-columns: 1fr; /* vira 1 coluna */
+  }
 
 }
