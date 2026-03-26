@@ -112,3 +112,46 @@ body {
 .principal p {
     font-size: 25px;
 }
+
+.sidebar form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar input,
+.sidebar textarea {
+    padding: 10px;
+    border: 2px solid white;
+    outline: none;
+    background-color: black;
+    font-size: 14px;
+    color: white;
+}
+
+.sidebar input {
+    height: 35px;
+}
+
+.sidebar textarea {
+    resize: none;
+}
+
+.sidebar button {
+    padding: 8px 10px;        /* menos espaço interno */
+    border: none;
+    border-radius: 8px;       /* levemente menor */
+    background-color: #39ff14;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;          /* tamanho da fonte menor */
+    cursor: pointer;
+    width: 120px;             /* largura fixa menor */
+    transition: 0.3s;
+}
+
+.sidebar button:hover {
+    background-color: black;
+    color: #39ff14;
+    border: 1px solid #39ff14;
+}
