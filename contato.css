@@ -1,0 +1,190 @@
+body {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #000;
+}
+
+.header {
+    text-align: center;
+    font-weight: bold;
+    font-family:"Roboto Condensed", sans-serif;
+    color: whitesmoke;
+    background-color: #111;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #111;
+    padding: 20px;
+    flex-direction: line; 
+}
+
+.header h1 {
+    position: absolute;
+    font-size: clamp(1rem, 3vw, 2rem);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    background-color: #111;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.button:hover{
+    transition: 0.5s;
+    border: solid 2px #39ff14;
+    transform: scale(1.15);
+    box-shadow: 0 0 20px #39ff14;
+}
+
+.container {
+    position: relative;
+    min-height: 20vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.texto1, .texto2 {
+    position: absolute;
+}
+
+.texto1 {
+    color: rgba(255, 255, 255, 0.212);
+    font-size: 150px;
+    z-index: 1;
+}
+
+.texto2 {
+    color: #37ff14;
+    font-size: 60px;
+    z-index: 2;
+}
+
+.header img {
+    display: flex;
+    max-width: 15%;
+    height: auto;
+} 
+
+.conteudo {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.principal {
+    flex: 3;
+    background-color: #000000;
+    padding: 10px;
+    color: white;
+}
+
+.sidebar {
+    flex:4;
+    background-color: #000000;
+    padding: 20px;
+    color: #39ff14;
+    border-radius: 10px;
+}
+
+.principal h1 {
+    font-size: 60px;
+} 
+
+.principal p {
+    font-size: 25px;
+}
+
+.sidebar form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar input,
+.sidebar textarea {
+    padding: 10px;
+    border: 2px solid white;
+    outline: none;
+    background-color: black;
+    font-size: 14px;
+    color: white;
+}
+
+.sidebar input {
+    height: 35px;
+}
+
+.sidebar textarea {
+    resize: none;
+}
+
+.sidebar button {
+    padding: 8px 10px;        /* menos espaço interno */
+    border: none;
+    border-radius: 8px;       /* levemente menor */
+    background-color: #39ff14;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;          /* tamanho da fonte menor */
+    cursor: pointer;
+    width: 120px;             /* largura fixa menor */
+    transition: 0.3s;
+}
+
+.sidebar button:hover {
+    background-color: black;
+    color: #39ff14;
+    border: 1px solid #39ff14;
+}
+
+.emoji i{
+    color: #39ff14;
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+.emoji p{
+    font-size: 20px;
+}
+
+.emoji2 i{
+    color: #39ff14;
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+.emoji2 p{
+    color:   white;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #111;
+    color: #aaa;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+    border-top: 1px solid #333;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
