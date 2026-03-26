@@ -52,3 +52,28 @@ body {
     transform: scale(1.15);
     box-shadow: 0 0 20px #39ff14;
 }
+
+.container {
+    position: relative;
+    min-height: 20vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.texto1, .texto2 {
+    position: absolute;
+}
+
+.texto1 {
+    color: rgba(255, 255, 255, 0.212);
+    font-size: 150px;
+    z-index: 1;
+}
+
+.texto2 {
+    color: #37ff14;
+    font-size: 60px;
+    z-index: 2;
+}
