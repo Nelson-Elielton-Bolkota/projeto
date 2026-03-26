@@ -155,3 +155,36 @@ body {
     color: #39ff14;
     border: 1px solid #39ff14;
 }
+
+.emoji i{
+    color: #39ff14;
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+.emoji p{
+    font-size: 20px;
+}
+
+.emoji2 i{
+    color: #39ff14;
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+.emoji2 p{
+    color:   white;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #111;
+    color: #aaa;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+    border-top: 1px solid #333;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
