@@ -135,6 +135,7 @@ body {
 
 .caixa table {
   width: 100%;
+  border-collapse: collapse;
 }
 .caixa td {
   padding: 1rem;
