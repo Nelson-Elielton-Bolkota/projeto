@@ -77,3 +77,38 @@ body {
     font-size: 60px;
     z-index: 2;
 }
+
+.header img {
+    display: flex;
+    max-width: 15%;
+    height: auto;
+} 
+
+.conteudo {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.principal {
+    flex: 3;
+    background-color: #000000;
+    padding: 10px;
+    color: white;
+}
+
+.sidebar {
+    flex:4;
+    background-color: #000000;
+    padding: 20px;
+    color: #39ff14;
+    border-radius: 10px;
+}
+
+.principal h1 {
+    font-size: 60px;
+} 
+
+.principal p {
+    font-size: 25px;
+}
