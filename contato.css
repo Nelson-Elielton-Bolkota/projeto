@@ -32,7 +32,7 @@ body {
 
 .header h1 {
     position: absolute;
-    font-size: clamp(1rem, 3vw, 2rem);
+    font-size: clamp(1.5rem, 5vw, 3rem);;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -187,4 +187,50 @@ body {
     border-top: 1px solid #333;
     font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
+} 
+
+@media (min-width: 768px) {
+    .menu {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu {
+        gap: 0px;
+        flex-direction: column;
+    }
+
+    .header {
+        justify-content: space-between;
+    }
+
+    .header img {
+        max-width: 30%;
+    }
+
+    .header h1 {
+
+        position: static;
+        transform: none;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .hero h2 {
+        font-size: 22px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .texto1 {
+        font-size: 100px;
+    }
+
+    .texto2 {
+        font-size: 45px;
+    }
+
 }
