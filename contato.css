@@ -233,4 +233,42 @@ body {
         font-size: 45px;
     }
 
+    @media (max-width: 600px) {
+    .sidebar {
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .sidebar form {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .sidebar input,
+    .sidebar textarea {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .sidebar button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .emoji2 p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .emoji2 i {
+        display: block;
+        margin: 0 auto 10px;
+        font-size: 30px;
+    }
+}
+
 }
