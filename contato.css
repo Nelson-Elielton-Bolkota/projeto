@@ -271,4 +271,20 @@ body {
     }
 }
 
+    .container {
+        min-height: 18vh;
+        padding: 20px;
+    }
+
+    .texto1 {
+        font-size: 50px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .texto2 {
+        font-size: 22px;
+        text-align: center;
+        width: 100%;
+
 }
