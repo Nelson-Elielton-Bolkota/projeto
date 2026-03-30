@@ -27,7 +27,6 @@ body {
     gap: 20px;
     background-color: #111;
     padding: 20px;
-    flex-direction: line; 
 }
 
 .header h1 {
@@ -64,6 +63,7 @@ body {
 
 .texto1, .texto2 {
     position: absolute;
+    justify-content: space-between;
 }
 
 .texto1 {
@@ -187,4 +187,41 @@ body {
     border-top: 1px solid #333;
     font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
+}
+
+@media (min-width: 768px) {
+    .menu {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu {
+        gap: 0px;
+        flex-direction: column;
+    }
+
+    .header {
+        justify-content: space-between;
+    }
+
+    .imagem {
+        max-width: 30%;
+    }
+
+    .header h1 {
+
+        position: static;
+        transform: none;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .texto1 {
+        font-size: 100px;
+    }
+
+    .texto2 {
+        font-size: 45px;
+    }
 }
